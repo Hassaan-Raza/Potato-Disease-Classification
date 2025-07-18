@@ -6,7 +6,7 @@ import tensorflow as tf
 from keras import layers
 
 # Load the model
-Model = tf.keras.models.load_model("C:/Users/Moonwalking/potato-disease-classification/saved_models/1/potatoes.h5", compile=False)
+Model = tf.keras.models.load_model("saved_models/1/potatoes.h5", compile=False)
 
 
 CLASS_NAMES = ["Early Blight", "Late Blight", "Healthy"]
